@@ -1,0 +1,156 @@
+html,body{
+	height: 100%;
+}
+body{
+	background-color: grey;
+	display: flex;
+	flex-direction: column;	
+}
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	padding: 2%;
+}
+a{
+	color: #FFFFFF;
+}
+header{
+	background-image: url('img/nepal-cultural-tours.jpg');
+	padding-top: 2%;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	color: #444444;
+}
+
+img{
+	display: inline-block;
+	margin-bottom: 2%;
+	height: 150px;
+	width: 220px;
+	padding: 3px;
+	border:solid 2px #000000;
+}
+
+img:hover{
+	transform: scale(1.2);
+}
+
+.container{
+	display: inline-block;
+	float: left;
+}
+
+table{
+	margin: 2% auto;
+}
+
+th{
+	text-align: center;
+}
+
+th:nth-child(2){
+	padding-left: 2%;
+	text-align: left;
+}
+tr{
+	padding: 2%;
+	opacity: 0.9;
+	margin: 1%;
+}
+tr:hover{
+	color: black;
+	opacity: 1;
+}
+td{
+	padding-left: 2%;
+	padding-bottom: 1%;
+}
+
+h3{
+	text-align: center;
+	padding-top: 4%;
+	color: #FFFFFF;
+}
+
+.p_style{
+	margin: 0 auto;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.get_in_touch{
+	background-color: #0091f038;
+	color: #FFFFFF;
+	position: relative;
+  	display: block;
+  	margin: 2% auto 0%;
+	padding: 0 2%;
+	border-radius: 15px;
+}
+
+.body_contact{
+	background-image: url('img/contact.jpg');
+}
+
+.about{
+	background-image: url('img/about.jpg');
+}
+
+footer{
+	text-align: center;
+	display: block;
+	background-color: #FFFFFF;
+	flex-shrink: 0;
+	height: 7%;
+}
+
+footer img:hover{
+	transform: none;
+}
+div{
+	margin-top: 1%;
+	flex: 1 0 auto;
+}
+
+.w-100 {
+  width: 70% !important;
+  height: 60vh;
+  margin: 0 auto;
+}
+
+.w-100:hover{
+	transform: none;
+}
+
+i{
+	display: inline-block;
+	margin-left: 7%;
+	float: left;
+}
+
+
+i{
+	display: block;
+	padding-left: 10%; 
+}
+
+@media screen and (min-width: 700px){
+	.font_awesome{
+	display: block;
+	padding-left: 5%;
+	width: 50%;
+	margin: 0 auto;}
+	i{
+	display: inline-block;
+	margin-left: 7%;
+	float: left;
+}
+}
+
+
+/*div{
+	border:solid 1px #000000;
+}
