@@ -101,11 +101,12 @@ h3{
 
 footer{
 	text-align: center;
+	font-size: 100%;
 	display: block;
 	background-color: #FFFFFF;
 	flex-shrink: 0;
 	height: 7%;
-	font-size: 100%
+	
 }
 
 footer img:hover{
